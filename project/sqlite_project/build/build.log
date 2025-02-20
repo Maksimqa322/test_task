@@ -1,0 +1,21 @@
+/usr/bin/cmake -S"/home/uwu/Рабочий стол/sqlite_project/sqlite-amalgamation-3260000" -B"/home/uwu/Рабочий стол/sqlite_project/sqlite-amalgamation-3260000/build" --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start "/home/uwu/Рабочий стол/sqlite_project/sqlite-amalgamation-3260000/build/CMakeFiles" "/home/uwu/Рабочий стол/sqlite_project/sqlite-amalgamation-3260000/build//CMakeFiles/progress.marks"
+make  -f CMakeFiles/Makefile2 all
+make[1]: вход в каталог «/home/uwu/Рабочий стол/sqlite_project/sqlite-amalgamation-3260000/build»
+make  -f CMakeFiles/sqlite3.dir/build.make CMakeFiles/sqlite3.dir/depend
+make[2]: вход в каталог «/home/uwu/Рабочий стол/sqlite_project/sqlite-amalgamation-3260000/build»
+cd "/home/uwu/Рабочий стол/sqlite_project/sqlite-amalgamation-3260000/build" && /usr/bin/cmake -E cmake_depends "Unix Makefiles" "/home/uwu/Рабочий стол/sqlite_project/sqlite-amalgamation-3260000" "/home/uwu/Рабочий стол/sqlite_project/sqlite-amalgamation-3260000" "/home/uwu/Рабочий стол/sqlite_project/sqlite-amalgamation-3260000/build" "/home/uwu/Рабочий стол/sqlite_project/sqlite-amalgamation-3260000/build" "/home/uwu/Рабочий стол/sqlite_project/sqlite-amalgamation-3260000/build/CMakeFiles/sqlite3.dir/DependInfo.cmake" "--color="
+make[2]: выход из каталога «/home/uwu/Рабочий стол/sqlite_project/sqlite-amalgamation-3260000/build»
+make  -f CMakeFiles/sqlite3.dir/build.make CMakeFiles/sqlite3.dir/build
+make[2]: вход в каталог «/home/uwu/Рабочий стол/sqlite_project/sqlite-amalgamation-3260000/build»
+[ 50%] Building C object CMakeFiles/sqlite3.dir/src/sqlite3.c.o
+/usr/bin/cc -DSQLITE_API="" -Dsqlite3_EXPORTS  -std=gnu99 -fPIC -MD -MT CMakeFiles/sqlite3.dir/src/sqlite3.c.o -MF CMakeFiles/sqlite3.dir/src/sqlite3.c.o.d -o CMakeFiles/sqlite3.dir/src/sqlite3.c.o -c "/home/uwu/Рабочий стол/sqlite_project/sqlite-amalgamation-3260000/src/sqlite3.c"
+[100%] Linking C shared library linux/liblibsqlite3.so
+/usr/bin/cmake -E cmake_link_script CMakeFiles/sqlite3.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -shared -Wl,-soname,liblibsqlite3.so -o linux/liblibsqlite3.so CMakeFiles/sqlite3.dir/src/sqlite3.c.o
+make[2]: выход из каталога «/home/uwu/Рабочий стол/sqlite_project/sqlite-amalgamation-3260000/build»
+[100%] Built target sqlite3
+make[1]: выход из каталога «/home/uwu/Рабочий стол/sqlite_project/sqlite-amalgamation-3260000/build»
+/usr/bin/cmake -E cmake_progress_start "/home/uwu/Рабочий стол/sqlite_project/sqlite-amalgamation-3260000/build/CMakeFiles" 0
+итого 988
+-rwxrwxr-x 1 uwu uwu 1007872 фев 20 18:28 liblibsqlite3.so

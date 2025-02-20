@@ -1,0 +1,4 @@
+project(SQLiteLibrary)
+
+set(CMAKE_C_STANDARD 99)
+set(SOURCE_FILES src/sqlite3.c src/sqlite3.h src/sqlite3ext.h)
